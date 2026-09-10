@@ -134,3 +134,171 @@ section.move .move-heading div button{
     font-size: 35px;
 }
 
+section.move .grid{
+    display: grid;
+    grid-template-columns: 333px 333px 1fr;
+    grid-template-rows: 500px 340px;
+    gap: 16px;
+}
+section.move .grid .card{
+    position: relative;
+    overflow: hidden;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+}
+section.move .grid .card h3{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+
+}
+section.move .grid .card p{
+    font-size: 22px;
+    line-height: 1.55;
+    font-weight: 600;
+}
+section.move .grid .card p span{
+    font-size: 30px;
+    text-decoration: none;
+}
+section.move .grid .card::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(206, 203, 203, 0.5), rgba(0, 0, 0, 0.65));
+    z-index: 0;
+}
+section.move .grid .card h3, .card p, .card .email, .card .continue, .card .social{
+    position: relative;
+    z-index: 2;
+}
+section.move .grid .card:nth-child(1) {
+    background-image: url(img1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+section.move .grid .card:nth-child(2) {
+    background-image: url(img2.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: 50px;
+} 
+section.move .grid .card:nth-child(3){
+    justify-content: flex-start;
+    padding: 38px 32px;
+    background-image: url(img3.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: -260px;
+}
+section.move .grid .card:nth-child(3) p{
+    max-width: 460px;
+    font-size: 42px;
+    line-height: 1.28;
+    font-weight: 400;
+} 
+section.move .grid .card:nth-child(3) button{
+    position: absolute;
+    z-index: 3;
+    left: 32px;
+    bottom: 32px;
+    padding: 14px 25px;
+    border: none;
+    background: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+section.move .grid .card:nth-child(3) button span{
+    margin-left: 12px;
+    font-size: 23px;
+}
+section.move .grid .card:nth-child(4) {
+    background-image: url(img4.png);
+    background-size: cover;
+    background-position: center;  
+} 
+section.move .grid .card:nth-child(5) {
+    background-image: url(img5.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+section.move .grid .card:nth-child(6) {
+    background: #304554;
+    padding: 47px 48px;
+    justify-content: flex-start;
+    text-align: center;
+}
+section.move .grid .card:nth-child(6)::before {
+    display: none;
+} 
+section.move .grid .card:nth-child(6) p{
+    font-size: 25px;
+    color: white;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+section.move .grid .card .email{
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    height: 49px;
+    display: flex;
+
+}
+section.move .grid .card .email input{
+    border: none;
+    outline: none;
+    padding: 0 16px;
+    font-size: 15px;
+    flex: 1;
+}
+section.move .grid .card .email button{
+    width: 49px;
+    border: none;
+    background-color: #0aa8e8;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+section.move .grid .card .continue{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin: 22px 0;
+}
+section.move .grid .card .continue span{
+    height: 1px;
+    background-color: white;
+    flex: 1;
+}
+section.move .grid .card .continue p{
+    font-size: 18px;
+}
+section.move .grid .card .social{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+section.move .grid .card .social button{
+    height: 43px;
+    background: transparent;
+    border: 1px solid white;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+section.move .grid .card .social button:hover{
+    color: black;
+    background-color: white;
+}
