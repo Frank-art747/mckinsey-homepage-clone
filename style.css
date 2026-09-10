@@ -665,3 +665,37 @@ section.download .flex .right h4{
     margin-top: 30px;
     margin-bottom: 15px;
 }
+section.download .flex .right img{
+    cursor: pointer;
+}
+
+section.faq{
+    width: 100%;
+    background-color: #f0f0f0;
+    color: black;
+}
+section.faq .text{
+
+    padding: 60px;
+    border-bottom: 2px solid black;
+}
+section.faq .text img{
+    width: 30px;
+    cursor: pointer;
+}
+section.faq p{
+    font-size: 30px;
+}
+section.faq p:hover{
+    color: #2251ff;
+    cursor: pointer;
+}
+section.faq span {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
