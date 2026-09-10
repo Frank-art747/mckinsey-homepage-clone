@@ -90,3 +90,47 @@ section.nav-bar nav .right-side img{
 }
 
 
+section.move{
+    width: 100%;
+    padding: 60px 72px;
+}
+
+section.move .move-heading{
+    width: 53%;
+    display: flex;
+    margin-bottom: 55px;
+    flex-direction: column;
+}
+
+section.move .move-heading h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+
+}
+section.move .move-heading h1 span{
+    margin-left: 130px;
+}
+section.move .move-heading div{
+    display: flex;
+    gap: 10px;
+}
+section.move .move-heading div p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+section.move .move-heading div button{
+    border: none;
+    background-color: #3c5361;
+    color: white;
+    cursor: pointer;
+    width: 135px;
+    height: 72px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
