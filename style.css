@@ -617,7 +617,8 @@ section.impact .cards{
 }
 section.impact .cards .card{
     width: 35%;
-    margin-top: 35px;   
+    margin-top: 35px;
+    padding-bottom: 60px;
 }
 section.impact .cards .card img{
     width: 100%;
@@ -629,4 +630,38 @@ section.impact .cards .card h4{
 section.impact .cards .card p{
     font-size: 22px;
     font-weight: 200;
+}
+
+section.download {
+    padding-left: 76px;
+    padding-right: 76px;
+    color: black;
+    background-color: white;
+    width: 100%;
+}
+
+section.download h3{
+    font-size: 52px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 60px;   
+}
+
+section.download .flex{
+    display: flex;
+}
+section.download .flex .left{
+    width: 50%;
+}
+section.download .flex .left img{
+    width: 100%;
+}
+section.download .flex .right{
+    margin-left: 20px;
+}
+section.download .flex .right h4{
+    font-size: 44px;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
