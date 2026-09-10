@@ -166,14 +166,21 @@ section.move .grid .card p span{
     font-size: 30px;
     text-decoration: none;
 }
-section.move .grid .card::before{
+section.move .grid .card:nth-child(1):before{
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(to bottom, rgba(206, 203, 203, 0.5), rgba(0, 0, 0, 0.65));
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.65));
     z-index: 0;
 }
-section.move .grid .card h3, .card p, .card .email, .card .continue, .card .social{
+section.move .grid .card:nth-child(4):before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.65));
+    z-index: 0;
+}
+section.move .grid .card h3, .card p{
     position: relative;
     z-index: 2;
 }
@@ -236,9 +243,6 @@ section.move .grid .card:nth-child(6) {
     justify-content: flex-start;
     text-align: center;
 }
-section.move .grid .card:nth-child(6)::before {
-    display: none;
-} 
 section.move .grid .card:nth-child(6) p{
     font-size: 25px;
     color: white;
@@ -301,4 +305,20 @@ section.move .grid .card .social button{
 section.move .grid .card .social button:hover{
     color: black;
     background-color: white;
+}
+
+section.news {
+    width: 100%;
+    margin-top: 60px;
+
+}
+section.news h4{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+}
+section.news .card{
+    width: 100%;
+    background-image: url(insights.png);
+    height: 480px;
 }
