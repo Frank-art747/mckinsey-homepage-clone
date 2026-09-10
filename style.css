@@ -400,3 +400,21 @@ section.podcast .podcast .text button:hover{
     background-color: white;
     color: black;
 }
+section.podcast .icons{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+section.podcast .icons .img{
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+section.podcast .icons .img img{
+    width: 70%;
+    height: auto;
+}
