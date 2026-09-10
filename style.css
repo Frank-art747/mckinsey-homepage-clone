@@ -523,3 +523,68 @@ section.help .cards .card1 p{
     font-size: 22px;
     font-weight: 200;
 }
+
+
+section.move-section {
+    width: 100%;
+    padding-left: 76px;
+    padding-right: 76px;
+    background-color: white;
+    padding-top: 30px;
+
+}
+section.move-section h6{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(56, 55, 55);
+    text-transform: uppercase;
+}
+section.move-section .flex{
+    display: flex;
+    gap: 35px;
+    
+}
+section.move-section .left{
+    width: 50%;
+}
+section.move-section .left h3{
+    color: rgb(76, 76, 250);
+    font-weight: 100;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+section.move-section .left p{
+    font-size: 21px;
+    color: #212425;
+    line-height: 1.5;
+}
+section.move-section .left button{
+    width: 200px;
+    font-size: 18px;
+    background-color: #2251ff;
+    height: 50px;
+    border: none;
+    color: white;
+    margin-top: 30px;
+}
+section.move-section .right{
+    width: 45%;
+    position: relative;
+}
+section.move-section .right img{
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+section.move-section .right .blue{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    background-color: #2251ff;
+    top: -30px;
+    right: -35px;
+
+}
