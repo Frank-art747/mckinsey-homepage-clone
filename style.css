@@ -483,3 +483,43 @@ section.podcast .switch .card p{
 section.podcast .switch .card .card1 span{
     background-color: blue;
 }
+
+
+section.help{
+    width: 100%;
+    color: white;
+    padding-left: 76px;
+    padding-right: 76px;
+}
+section.help h6{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+section.help h3{
+    font-size: 52px;
+    font-weight: 100;
+    text-align: center;
+}
+section.help .cards{
+    display: flex;
+    gap: 30px;
+
+}
+section.help .cards .card1{
+    width: 35%;
+    margin-top: 35px;
+}
+section.help .cards .card1 img{
+    width: 100%;
+}
+section.help .cards .card1 h4{
+    font-size: 23px;
+    margin: 20px 0;
+}
+section.help .cards .card1 p{
+    font-size: 22px;
+    font-weight: 200;
+}
