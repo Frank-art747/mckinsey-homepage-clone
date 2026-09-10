@@ -531,6 +531,7 @@ section.move-section {
     padding-right: 76px;
     background-color: white;
     padding-top: 30px;
+    padding-bottom: 60px;
 
 }
 section.move-section h6{
@@ -587,4 +588,45 @@ section.move-section .right .blue{
     top: -30px;
     right: -35px;
 
+}
+section.impact {
+    padding-left: 76px;
+    padding-right: 76px;
+    color: white;
+    background-color: #2251ff;
+}
+section.impact h6{
+    margin-bottom: 60px;
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+}
+section.impact h3{
+    font-size: 52px;
+    font-weight: 100;
+    text-align: center;
+}
+
+section.impact .cards{
+    display: flex;
+    gap: 30px;
+
+}
+section.impact .cards .card{
+    width: 35%;
+    margin-top: 35px;   
+}
+section.impact .cards .card img{
+    width: 100%;
+}
+section.impact .cards .card h4{
+    font-size: 23px;
+    margin: 20px 0;
+}   
+section.impact .cards .card p{
+    font-size: 22px;
+    font-weight: 200;
 }
