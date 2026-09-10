@@ -361,3 +361,42 @@ section.news .card .input button{
 section.news .card .input button:hover{
     background-color: rgba(64, 168, 238, 0.658);
 }
+
+section.podcast{
+    width: 100%;
+    padding: 65px 76px;
+    color: white;
+    background: blue;
+
+}
+section.podcast .podcast h2{
+    font-size: 70px;
+    font-weight: 100;
+}
+section.podcast .podcast .text {
+    display: flex;
+    width: 100%;
+    gap: 150px;
+
+}
+section.podcast .podcast .text p{
+    font-size: 21px;
+    font-size: 100;
+    word-spacing: 1.5px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+section.podcast .podcast .text button{
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-top: 30px;
+}
+section.podcast .podcast .text button:hover{
+    background-color: white;
+    color: black;
+}
