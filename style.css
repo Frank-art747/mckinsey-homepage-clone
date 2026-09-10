@@ -366,7 +366,7 @@ section.podcast{
     width: 100%;
     padding: 65px 76px;
     color: white;
-    background: blue;
+    background: linear-gradient(to right, rgb(4, 4, 100),rgb(55, 55, 255));
 
 }
 section.podcast .podcast h2{
@@ -457,4 +457,29 @@ section.podcast .video .play{
     background-size: cover;
     width: 50%;
     height: 570px;
+}
+
+section.podcast .switch{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+
+}
+section.podcast .switch .card {
+    width: 25%;
+}
+
+section.podcast .switch .card span{
+    width: 100%;
+    height: 6px;
+    border-radius: 3px;
+    display: block;
+    background-color: white;
+    margin-bottom: 20px;
+}
+section.podcast .switch .card p{
+    font-size: 17px;
+}
+section.podcast .switch .card .card1 span{
+    background-color: blue;
 }
