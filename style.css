@@ -232,6 +232,7 @@ section.move .grid .card:nth-child(4) {
 } 
 section.move .grid .card:nth-child(5) {
     background-image: url(img5.png);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin-top: -50px;
@@ -316,9 +317,47 @@ section.news h4{
     text-transform: uppercase;
     text-align: center;
     font-size: 18px;
+    margin-bottom: 20px;
 }
 section.news .card{
     width: 100%;
     background-image: url(insights.png);
-    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding-left: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+section.news .card h2{
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 70px;
+}
+section.news .card p{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+section.news .card .input{
+    display: flex;
+    gap: 10px;
+}
+section.news .card .input input{
+    height: 50px;
+    width: 370px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+section.news .card .input button{
+    width: 150px;
+    font-size: 16px;
+    border: none;
+}
+section.news .card .input button:hover{
+    background-color: rgba(64, 168, 238, 0.658);
 }
